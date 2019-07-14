@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Николай Хрулёв](https://up.htmlacademy.ru/adaptive/17/user/404911).
-* Наставник: `Неизвестно`.
+* Наставник: [Ярослав Шевцов](https://up.htmlacademy.ru/adaptive/17/user/170516).
 
 ---
 
