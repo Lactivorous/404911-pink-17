@@ -1,0 +1,36 @@
+.download {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+
+  margin-bottom: 40px;
+
+  color: $white-color;
+  background-color: $main-color-dark;
+}
+
+.download__wrapper {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.download__link {
+  font: inherit;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  color: $white-color;
+  text-decoration: none;
+}
+
+.download__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.download__available {
+  font-weight: 300;
+  padding: 25px 20px 30px 20px;
+}

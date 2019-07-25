@@ -3,113 +3,127 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк__фото</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
   <body>
   <header class="page-header">
     <a href="index.html" class="page-header__logo">
-      <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22" alt="Логотип Пинк">
+      <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Пинк">
     </a>
     <button class="page-header__toggle" type="button">Открыть меню</button>
     <nav class="main-nav">
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--active">
-            <a href="index.html">Главная</a>
+            <a class="site-list__link" href="index.html">Главная</a>
           </li>
           <li class="site-list__item">
             <a>Фотографии</a>
           </li>
           <li class="site-list__item">
-            <a href="form.html">Конкурс</a>
+            <a class="site-list__link" href="form.html">Конкурс</a>
           </li>
           <li class="site-list__item">
-            <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
           </li>
         </ul>
       </div>
     </nav>
     <h1 class="page-header__title">Фотографии пользователей</h1>
   </header>
-  
   <main class="page-main">
     <p class="page-main__description">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
-    
     <section class="photo-gallery">
       <div class="photo-gallery__wrapper">
         <h2 class="visually-hidden">Фотографии</h2>
         <ul class="photo-gallery__list">
           <li class="photo-gallery__item photo-gallery__item--main">
             <a class="photo-gallery__link photo-gallery__link--main" href="#">
-              <img src="http://placehold.it/320x137" alt="Панорама дня">
+              <img src="img/panorama-mobile@1x.jpg" alt="Панорама дня">
             </a>
-            <p class="photo-gallery__author photo-gallery__author--main">Анна <span class="photo-gallery__time photo-gallery__time--main">(5 минут назад)</span></p>
-            <p class="photo-gallery__description photo-gallery__description--main">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-            <a class="photo-gallery__like photo-gallery__like--main" href="#">Отметка нравится</a>
-            <p class="photo-gallery__count photo-gallery__count--main">Нравится: 215</p>
+            <div class="photo-gallery__block">
+              <p class="photo-gallery__author photo-gallery__author--main">Анна <span class="photo-gallery__time photo-gallery__time--main">(5 минут назад)</span></p>
+              <p class="photo-gallery__description photo-gallery__description--main">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+              <a class="photo-gallery__like photo-gallery__like--main" href="#">Отметка нравится</a>
+              <p class="photo-gallery__count photo-gallery__count--main">Нравится: 215</p>
+            </div>
           </li>
           <li class="photo-gallery__item">
             <a class="photo-gallery__link" href="#">
-              <img src="http://placehold.it/280x180" alt="Фотография автомобиля">
+              <img src="img/photo-car-mobile@1x.jpg" alt="Фотография автомобиля">
             </a>
-            <p class="photo-gallery__author">Левон <span class="photo-gallery__time">(5 часов назад)</span></p>
-            <p class="photo-gallery__description">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-            <a class="photo-gallery__like" href="#">Отметка нравится</a>
-            <p class="photo-gallery__count">Нравится: 356</p>
+            <div class="photo-gallery__block">
+              <p class="photo-gallery__author">Левон <span class="photo-gallery__time">(5 часов назад)</span></p>
+              <p class="photo-gallery__description">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+              <a class="photo-gallery__like" href="#">Отметка нравится</a>
+              <p class="photo-gallery__count">Нравится: 356</p>
+            </div>
           </li>
           <li class="photo-gallery__item">
             <a class="photo-gallery__link" href="#">
-              <img src="http://placehold.it/280x180" alt="Фотография барабанной установки">
+              <img src="img/photo-drumset-mobile@1x.jpg" alt="Фотография барабанной установки">
             </a>
-            <p class="photo-gallery__author">Антон <span class="photo-gallery__time">(12 часов назад)</span></p>
-            <p class="photo-gallery__description">Соседи будут рады!</p>
-            <a class="photo-gallery__like" href="#">Отметка нравится</a>
-            <p class="photo-gallery__count">Нравится: 666</p>
+            <div class="photo-gallery__block">
+              <p class="photo-gallery__author">Антон <span class="photo-gallery__time">(12 часов назад)</span></p>
+              <p class="photo-gallery__description">Соседи будут рады!</p>
+              <a class="photo-gallery__like" href="#">Отметка нравится</a>
+              <p class="photo-gallery__count">Нравится: 666</p>
+            </div>
           </li>
           <li class="photo-gallery__item">
             <a class="photo-gallery__link" href="#">
-              <img src="http://placehold.it/280x180" alt="Фотография неба сквозь стеклянную крышу">
+              <img src="img/photo-window-mobile@1x.jpg" alt="Фотография неба сквозь стеклянную крышу">
             </a>
-            <p class="photo-gallery__author">Борис <span class="photo-gallery__time">(20 часов назад)</span></p>
-            <p class="photo-gallery__description">Здесь могла быть ваша цитата о высоком и вечном.</p>
-            <a class="photo-gallery__like" href="#">Отметка нравится</a>
-            <p class="photo-gallery__count">Нравится: 215</p>
+            <div class="photo-gallery__block">
+              <p class="photo-gallery__author">Борис <span class="photo-gallery__time">(20 часов назад)</span></p>
+              <p class="photo-gallery__description">Здесь могла быть ваша цитата о высоком и вечном.</p>
+              <a class="photo-gallery__like" href="#">Отметка нравится</a>
+              <p class="photo-gallery__count">Нравится: 215</p>
+            </div>
           </li>
           <li class="photo-gallery__item">
             <a class="photo-gallery__link" href="#">
-              <img src="http://placehold.it/280x180" alt="Фотография с ярмарки">
+              <img src="img/photo-fair-mobile@1x.jpg" alt="Фотография с ярмарки">
             </a>
-            <p class="photo-gallery__author">Сергей <span class="photo-gallery__time">(25 часов назад)</span></p>
-            <p class="photo-gallery__description">Самая кубанская в мире!</p>
-            <a class="photo-gallery__like" href="#">Отметка нравится</a>
-            <p class="photo-gallery__count">Нравится: 4</p>
+            <div class="photo-gallery__block">
+              <p class="photo-gallery__author">Сергей <span class="photo-gallery__time">(25 часов назад)</span></p>
+              <p class="photo-gallery__description">Самая кубанская в мире!</p>
+              <a class="photo-gallery__like" href="#">Отметка нравится</a>
+              <p class="photo-gallery__count">Нравится: 4</p>
+            </div>
           </li>
           <li class="photo-gallery__item">
             <a class="photo-gallery__link" href="#">
-              <img src="http://placehold.it/280x180" alt="Фотография на привале в горах">
+              <img src="img/photo-pov-mobile@1x.jpg" alt="Фотография на привале в горах">
             </a>
-            <p class="photo-gallery__author">Максим <span class="photo-gallery__time">(40 часов назад)</span></p>
-            <p class="photo-gallery__description">Где снег-то?</p>
-            <a class="photo-gallery__like" href="#">Отметка нравится</a>
-            <p class="photo-gallery__count">Нравится: 150</p>
+            <div class="photo-gallery__block">
+              <p class="photo-gallery__author">Максим <span class="photo-gallery__time">(40 часов назад)</span></p>
+              <p class="photo-gallery__description">Где снег-то?</p>
+              <a class="photo-gallery__like" href="#">Отметка нравится</a>
+              <p class="photo-gallery__count">Нравится: 150</p>
+            </div>
           </li>
           <li class="photo-gallery__item">
             <a class="photo-gallery__link" href="#">
-              <img src="http://placehold.it/280x180" alt="Фотография крыла самолета">
+              <img src="img/photo-wing-mobile@1x.jpg" alt="Фотография крыла самолета">
             </a>
-            <p class="photo-gallery__author">Надежда <span class="photo-gallery__time">(45 часов назад)</span></p>
-            <p class="photo-gallery__description">Всем GM и взаимные лайки!</p>
-            <a class="photo-gallery__like" href="#">Отметка нравится</a>
-            <p class="photo-gallery__count">Нравится: 2560</p>
+            <div class="photo-gallery__block">
+              <p class="photo-gallery__author">Надежда <span class="photo-gallery__time">(45 часов назад)</span></p>
+              <p class="photo-gallery__description">Всем GM и взаимные лайки!</p>
+              <a class="photo-gallery__like" href="#">Отметка нравится</a>
+              <p class="photo-gallery__count">Нравится: 2560</p>
+            </div>
           </li>
         </ul>
       </div>
     </section>
   </main>
   <footer class="page-footer">
-    <a href="#" class="page-footer__logo">
-      <img class="page-footer__logo-image" src="http://placehold.it/147x40" width="147" height="40" alt="Логотип Пинк">
-    </a>
     <div class="page-footer__wrapper">
+      <a href="#" class="page-footer__logo">
+        <img class="page-footer__logo-image" src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Логотип Пинк">
+      </a>
       <div class="page-footer__social social">
         <b class="visually-hidden">Давайте дружить!</b>
         <ul class="social__list">
@@ -130,6 +144,5 @@
       </div>
     </div>
   </footer>
-  
   </body>
 </html>
