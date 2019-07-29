@@ -1,0 +1,46 @@
+.photo-gallery {
+  font-size: 14px;
+  line-height: 24px;
+  color: $main-color;
+}
+
+.photo-gallery__wrapper {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.photo-gallery__block {
+  background-color: $f2-color;
+}
+
+.photo-gallery__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.photo-gallery__item {
+  margin-bottom: 20px;
+}
+
+.photo-gallery__author {
+  font-weight: bold;
+
+  margin: 0;
+}
+
+.photo-gallery__time {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.photo-gallery__description {
+  margin: 0;
+}
+
+.photo-gallery__count {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #d22856;
+}
